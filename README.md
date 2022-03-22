@@ -9,7 +9,7 @@ from print_all_kivy_attributes import print_all_widget_attributes #import this f
     def build(self):
         Clock.schedule_once(self.print_all_attributes) #add this line to the build function
 
-    def print_all_attributes(self, *args): #add this function in your class
+    def print_all_attributes(self, *args): #add this function to the class of your app
         print_all_widget_attributes(self.root.ids)
 ```
 
