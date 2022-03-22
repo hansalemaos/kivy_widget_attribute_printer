@@ -2,6 +2,7 @@
 Prints all attributes of all Kivy/KivyMD widgets with ID so that you don't need to read the documentation all the time.
 
 
+Add this code to your **main.py** file
 ```
 from print_all_kivy_attributes import print_all_widget_attributes #import this function
 
